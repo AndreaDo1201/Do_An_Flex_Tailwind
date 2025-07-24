@@ -3,9 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Orbitz Official Website - A Taste Out Of The Space</title>
+    <!-- Link to external style.css file -->
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!-- Inter font from Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Quicksand:wght@300..700&family=Saira+Stencil+One&display=swap"
+      rel="stylesheet"
+    />
 </head>
-<body>
+
+  <body>
+    <!-- Header section -->
+    <header class=" main-header grid-con">
+      <h1 class="hidden">Welcome To The Universe of Orbitz</h1>
+      <!-- Logo -->
+        <a class="col-span-full col-start-1 col-end-3">
+            <img src="images/logo 2.0_1-01.png" alt="Orbitz_Logo" class="header-logo">
+        </a>
+      <nav id="main-nav" class="col-span-full m-col-start-7 m-col-end-13">
+        <h2 class="hidden">Navigation</h2>
+        <div class="pill-nav">
+          <a class="active" href="homepage.html">Unvierses</a>
+          <a href="#product">Products</a>
+          <a href="#about">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+  <main>
+    <div class="grid-con">
+      <section class="col-span-full hero-content">
+        <h2 class="hero-title">THE TASTE OUT OF SPACE</h2>
+        <div class="col-start-2 col-end-4">
+        <p class="hero-information">
+          Discover your taste, Discover your galaxy
+        </p>
+        </div>
+        <div class="grid-con">
+          <button class="col-start-1 col-end-3 btn-glow" type="button">DISCOVER</button>
+        </div>
+      </section>
+    </div>
+    <!-- Body content information -->
+    <div class="grid-con">
+      <section class="product-section l-col-span-full col-span-full">
+        <h2 class="hidden">Orbitz Products</h2>
+        <p class="product-title">CHOOSE YOUR UNIVERSE</p>
+          <div class="img-holder">
+            <div> 
+              <img class="flavor-img" src="images/milkyway.jpg" alt="MilkyWay" />
+              <h3>Cherry-Rashberry</h3>
+            </div>
+            <div>
+            <img class="flavor-img" src="images/triangulum.jpg" alt="Triangulum" />
+            <h3>Blueberry-Strawberry</h3>
+            </div>
+            <div>
+            <img class="flavor-img" src="images/whirlpool.jpg" alt="Whirlpool" />
+            <h3>Mango-Strawberry</h3>
+            </div>  
+          </div>
+      </section>
+    </div>
+
+  </main>
+
+    <footer id="footer-hero-desk" class="grid-con">
+        <section class="col-start-1 col-end-3 l-col-start-1 l-col-end-4 footer-contact-info">
+            <h2 class="hidden">Contact Information</h2>
+            <img src="images/logo2.0_1-01.png" alt="orbitz_logo">
+            <p>
+                Toll Free: +1 548 XXX-XXXX<br>
+                Fax: +1 61X 6XX 2XXX<br>
+                Email: info[at]orbitz.com
+            </p>
+        </section>
+
+        <section class="l-col-start-5 l-col-end-9">
+            <h3 class="hidden">Follow Us</h3>
+            <nav class="grid-room-desk">
+                <h2 class="hidden">Navigation</h2>
+                <div class="footer-desk-con l-col-star-2">
+                    <ul>
+                        <li><a href="#">Unvierses</a></li>
+                        <li><a href="#">Promotion</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-desk-con l-col-start-4">
+                    <ul>
+                        <li><a href="#">Collaboration</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Support Center</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <div id="contact-now-footer" class=" col-start-3 col-end-4 l-col-start-10 l-col-end-13">
+            <a href="contact.html"><p>CONTACT US</p></a>
+        </div>
+
+        <div id="footer-privacy-desk" class="col-span-full line-separator">
+            <p id="price-policy">
+               <br><br> &copy;Orbitz Soda Company
+                All Rights Reserved Terms of Use Privacy Policy Cookies Policy Do Not Sell or Share My Personal Information
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
     
-</body>
+  </body>
 </html>
